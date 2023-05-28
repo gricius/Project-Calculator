@@ -1,0 +1,52 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calculator input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.calculator .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.calculator button {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.calculator .double-width {
+    width: 85px;
+
+}
+
+.calculator button.double-width.blue {
+    background-color: blue;
+    /* Added blue color to the "C" button */
+}
+
+.calculator button.red {
+    background-color: red;
+    /* Added red color to the "/" button */
+}
+
+.calculator button.orange {
+    background-color: orange;
+    /* Added orange color to the "/", "*", "-", "+" buttons */
+}
+
+.calculator button.green {
+    background-color: green;
+    /* Added green color to the "=" button */
+}
